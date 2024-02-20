@@ -1,0 +1,368 @@
+
+
+
+Eventus (R) Software from Cowan Research, L.C.
+     Summary of Eventus Event Study Data and User Selections
+
+
+     ESTIMATION PERIOD:  Ends 46 days before the event date;
+                             255 days in length.
+
+     TOTAL SECURITY-EVENTS IN REQUEST FILE:                        6
+
+     SECURITY-EVENTS WITH USEABLE RETURNS:                         6
+
+
+     Minimum days of return data required for parameter estimation:      4
+
+
+
+
+
+
+
+     NOTE:  Useable returns means all nonmissing returns except the
+           first day after a missing estimation period return.
+
+
+     Please check the SAS log (*.log file) for any messages.
+
+     Eventus® software is produced by Cowan Research, L.C., an independent company.
+     Many users have mentioned Eventus in their papers. Thank you for your support!
+
+     Get expert help and code samples at http://support.eventstudy.com/.
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+Results of Daily Security Return Data Input
+
+                                                                        Esti-
+                                                                       mation    Event
+                                                                       Period   Period
+                                                                       Returns  Returns
+PERMNO  Name on Event Date                         Event Date           <=255    <=61    Reason if No Useable Returns
+
+12490   INTERNATIONAL BUSINESS MACHS CO    Wednesday, August 16, 2017    255       61                                            
+26403   DISNEY WALT CO                         Thursday, June 1, 2017    255       61                                            
+59328   INTEL CORP                            Monday, August 14, 2017    255       61                                            
+84788   AMAZON COM INC                       Wednesday, July 25, 2018    255       61                                            
+84788   AMAZON COM INC                       Wednesday, July 25, 2018    255       61                                            
+84788   AMAZON COM INC                      Wednesday, August 7, 2019    255       61                                            
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+Parameter Estimates and Estimation Period Statistics
+
+Market Index=Equal
+
+                             Mean     % of Raw                             Market        Total      Residual
+                Event        Total    Returns                            Model Res-      Return     Standard     Autocor-
+PERMNO           Date       Return       >0           Alpha      Beta     iduals>0      Variance    Deviation    relation*
+
+12490       16AUG2017      0.00023     51.37%      -0.00029      0.79      52.94%        0.00009      0.00833     -0.0012 
+26403       01JUN2017      0.00065     50.01%       0.00014      0.61      46.67%        0.00007      0.00754      0.0358 
+59328       14AUG2017      0.00074     57.06%       0.00015      0.82      50.98%        0.00012      0.00964     -0.0350 
+84788       25JUL2018      0.00209     57.48%       0.00130      1.34      49.41%        0.00028      0.01496      0.0845 
+84788       25JUL2018      0.00209     57.48%       0.00130      1.34      49.41%        0.00028      0.01496      0.0845 
+84788       07AUG2019      0.00044     54.34%       0.00077      2.04      50.98%        0.00049      0.01698     -0.0184 
+  Mean                     0.00104     54.62%       0.00056      1.16      50.07%        0.00022      0.01207      0.0250 
+  Median                   0.00069     55.70%       0.00046      1.08      50.20%        0.00020      0.01230      0.0173 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+* First order autocorrelation of market model abnormal returns
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+                          Market Adjusted Returns, Equally Weighted Index
+ 
+                         Mean                        Portfolio       Uncorrected
+                       Abnormal      Positive:      Time-Series         Patell        Generalized
+         Day    N       Return       Negative         (CDA) t             Z              Sign Z
+---------------------------------------------------------------------------------------------------
+         -30    6          -0.21%      3:3            -0.354           -0.542           -0.074     
+         -29    6           0.18%      5:1)            0.301            0.129            1.560$    
+         -28    6           0.68%      3:3             1.116            1.524$          -0.074     
+         -27    6          -0.74%      1:5<           -1.213           -1.624$          -1.707*    
+         -26    6           0.42%      5:1)            0.693            0.819            1.560$    
+         -25    6           0.28%      3:3             0.466            0.248           -0.074     
+         -24    6           0.21%      4:2             0.350            0.520            0.743     
+         -23    6          -0.03%      3:3            -0.041            0.049           -0.074     
+         -22    6          -0.58%      1:5<           -0.949           -1.427$          -1.707*    
+         -21    6          -0.06%      3:3            -0.092            0.125           -0.074     
+         -20    6          -0.65%      3:3            -1.069           -2.762**         -0.074     
+         -19    6          -0.26%      3:3            -0.423           -0.313           -0.074     
+         -18    6           0.70%      4:2             1.158            1.048            0.743     
+         -17    6          -0.10%      2:4            -0.172           -0.368           -0.891     
+         -16    6           0.24%      4:2             0.394            0.516            0.743     
+         -15    6          -1.16%      0:6<<          -1.917*          -2.769**         -2.524**   
+         -14    6          -0.12%      3:3            -0.193           -0.020           -0.074     
+         -13    6          -0.04%      2:4            -0.073           -0.037           -0.891     
+         -12    6           0.63%      5:1)            1.035            0.951            1.560$    
+         -11    6           0.26%      5:1)            0.423            0.413            1.560$    
+         -10    6           0.53%      5:1)            0.877            1.026            1.560$    
+          -9    6           1.16%      5:1)            1.908*           2.517**          1.560$    
+          -8    6           0.19%      3:3             0.309            0.564           -0.074     
+          -7    6           0.01%      3:3             0.020           -0.176           -0.074     
+          -6    6          -0.07%      3:3            -0.112           -0.255           -0.074     
+          -5    6          -0.01%      3:3            -0.022            0.299           -0.074     
+          -4    6          -0.25%      3:3            -0.416           -0.177           -0.074     
+          -3    6           0.22%      4:2             0.356            0.806            0.743     
+          -2    6          -0.32%      2:4            -0.524           -0.488           -0.891     
+          -1    6           0.64%      4:2             1.062            0.911            0.743     
+          0     6           0.47%      5:1)            0.781            0.588            1.560$    
+          +1    6          -1.21%      1:5<           -2.002*          -2.466**         -1.707*    
+          +2    6           0.11%      2:4             0.184           -0.163           -0.891     
+          +3    6          -0.77%      1:5<           -1.268           -1.451$          -1.707*    
+          +4    6          -0.03%      2:4            -0.044           -0.090           -0.891     
+          +5    6           0.03%      3:3             0.050           -0.332           -0.074     
+---------------------------------------------------------------------------------------------------
+   The symbols $,*,**, and *** denote statistical significance at the 0.10, 0.05, 0.01 and 0.001
+    levels, respectively, using a generic one-tail test. The symbols (,< or ),> etc. correspond
+    to $,* and show the direction and significance of a generic one-tail generalized sign test.
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+                          Market Adjusted Returns, Equally Weighted Index
+ 
+                         Mean                        Portfolio       Uncorrected
+                       Abnormal      Positive:      Time-Series         Patell        Generalized
+         Day    N       Return       Negative         (CDA) t             Z              Sign Z
+---------------------------------------------------------------------------------------------------
+          +6    6           0.78%      5:1)            1.294$           1.364$           1.560$    
+          +7    6          -0.02%      2:4            -0.036            0.391           -0.891     
+          +8    6           0.06%      3:3             0.106           -0.403           -0.074     
+          +9    6           0.08%      4:2             0.125            0.122            0.743     
+         +10    6           0.45%      4:2             0.745            0.630            0.743     
+         +11    6          -0.09%      3:3            -0.156           -0.310           -0.074     
+         +12    6          -0.31%      2:4            -0.507           -0.622           -0.891     
+         +13    6           0.30%      3:3             0.492            0.236           -0.074     
+         +14    6           0.45%      5:1)            0.751            0.959            1.560$    
+         +15    6          -0.57%      1:5<           -0.945           -1.290$          -1.707*    
+         +16    6           0.04%      2:4             0.067            0.151           -0.891     
+         +17    6          -0.17%      2:4            -0.284            0.016           -0.891     
+         +18    6          -0.01%      3:3            -0.011           -0.052           -0.074     
+         +19    6           0.04%      2:4             0.065            0.273           -0.891     
+         +20    6           0.34%      4:2             0.556            0.342            0.743     
+         +21    6           0.00%      4:2             0.001            0.017            0.743     
+         +22    6          -0.21%      2:4            -0.353           -0.219           -0.891     
+         +23    6          -0.06%      3:3            -0.091           -0.251           -0.074     
+         +24    6          -0.14%      3:3            -0.224           -0.202           -0.074     
+         +25    6           1.12%      4:2             1.842*           1.667*           0.743     
+         +26    6          -0.01%      3:3            -0.017           -0.124           -0.074     
+         +27    6          -0.10%      5:1)           -0.161            0.145            1.560$    
+         +28    6           0.67%      4:2             1.108            0.992            0.743     
+         +29    6          -0.84%      2:4            -1.394$          -1.750*          -0.891     
+         +30    6          -0.24%      3:3            -0.399           -0.265           -0.074     
+---------------------------------------------------------------------------------------------------
+   The symbols $,*,**, and *** denote statistical significance at the 0.10, 0.05, 0.01 and 0.001
+    levels, respectively, using a generic one-tail test. The symbols (,< or ),> etc. correspond
+    to $,* and show the direction and significance of a generic one-tail generalized sign test.
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+                                 Market Adjusted Returns, Equally Weighted Index
+ 
+                       Mean
+                    Cumulative      Precision                      Portfolio       Uncorrected
+                     Abnormal        Weighted      Positive:      Time-Series         Patell        Generalized
+Days          N       Return           CAAR        Negative         (CDA) t             Z              Sign Z
+-----------------------------------------------------------------------------------------------------------------
+(-30,-2)      6           1.11%           0.27%      3:3             0.341            0.111           -0.074     
+(-1,0)        6           1.12%           0.67%      4:2             1.303$           1.060            0.743     
+(+1,+30)      6          -0.31%          -1.21%      2:4            -0.092           -0.490           -0.891     
+-----------------------------------------------------------------------------------------------------------------
+          The symbols $,*,**, and *** denote statistical significance at the 0.10, 0.05, 0.01 and 0.001
+           levels, respectively, using a generic one-tail test. The symbols (,< or ),> etc. correspond
+           to $,* and show the direction and significance of a generic one-tail generalized sign test.
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+                       Market Model Abnormal Returns, Equally Weighted Index
+ 
+                         Mean                        Portfolio       Uncorrected
+                       Abnormal      Positive:      Time-Series         Patell        Generalized
+         Day    N       Return       Negative         (CDA) t             Z              Sign Z
+---------------------------------------------------------------------------------------------------
+         -30    6          -0.19%      3:3            -0.324           -0.531           -0.003     
+         -29    6           0.17%      4:2             0.290            0.165            0.813     
+         -28    6           0.43%      4:2             0.721            1.140            0.813     
+         -27    6          -0.93%      1:5(           -1.566$          -1.843*          -1.636$    
+         -26    6           0.34%      5:1)            0.582            0.790            1.630$    
+         -25    6           0.35%      4:2             0.596            0.425            0.813     
+         -24    6           0.00%      4:2             0.003            0.189            0.813     
+         -23    6          -0.01%      3:3            -0.013            0.079           -0.003     
+         -22    6          -0.57%      1:5(           -0.960           -1.408$          -1.636$    
+         -21    6           0.01%      3:3             0.023            0.225           -0.003     
+         -20    6          -0.82%      3:3            -1.379$          -3.037**         -0.003     
+         -19    6          -0.19%      2:4            -0.313           -0.255           -0.820     
+         -18    6           0.62%      3:3             1.056            1.007           -0.003     
+         -17    6          -0.17%      2:4            -0.289           -0.493           -0.820     
+         -16    6           0.20%      4:2             0.341            0.471            0.813     
+         -15    6          -1.13%      1:5(           -1.919*          -2.701**         -1.636$    
+         -14    6          -0.27%      3:3            -0.457           -0.315           -0.003     
+         -13    6          -0.14%      2:4            -0.235           -0.225           -0.820     
+         -12    6           0.54%      5:1)            0.916            0.850            1.630$    
+         -11    6           0.16%      4:2             0.270            0.254            0.813     
+         -10    6           0.29%      3:3             0.484            0.445           -0.003     
+          -9    6           1.19%      6:0>>           2.011*           2.526**          2.446**   
+          -8    6           0.08%      4:2             0.130            0.485            0.813     
+          -7    6           0.10%      3:3             0.165           -0.013           -0.003     
+          -6    6          -0.25%      3:3            -0.422           -0.533           -0.003     
+          -5    6           0.02%      3:3             0.030            0.308           -0.003     
+          -4    6          -0.17%      3:3            -0.291           -0.156           -0.003     
+          -3    6           0.28%      4:2             0.477            0.882            0.813     
+          -2    6           0.02%      2:4             0.038           -0.063           -0.820     
+          -1    6           0.51%      3:3             0.865            0.687           -0.003     
+          0     6           0.49%      5:1)            0.823            0.765            1.630$    
+          +1    6          -1.54%      0:6<<          -2.601**         -2.967**         -2.453**   
+          +2    6           0.30%      3:3             0.499            0.086           -0.003     
+          +3    6          -0.65%      2:4            -1.105           -1.336$          -0.820     
+          +4    6          -0.25%      2:4            -0.431           -0.409           -0.820     
+          +5    6           0.45%      4:2             0.762            0.332            0.813     
+---------------------------------------------------------------------------------------------------
+   The symbols $,*,**, and *** denote statistical significance at the 0.10, 0.05, 0.01 and 0.001
+    levels, respectively, using a generic one-tail test. The symbols (,< or ),> etc. correspond
+    to $,* and show the direction and significance of a generic one-tail generalized sign test.
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+                       Market Model Abnormal Returns, Equally Weighted Index
+ 
+                         Mean                        Portfolio       Uncorrected
+                       Abnormal      Positive:      Time-Series         Patell        Generalized
+         Day    N       Return       Negative         (CDA) t             Z              Sign Z
+---------------------------------------------------------------------------------------------------
+          +6    6           0.81%      5:1)            1.376$           1.452$           1.630$    
+          +7    6          -0.33%      2:4            -0.555           -0.043           -0.820     
+          +8    6          -0.14%      2:4            -0.241           -0.634           -0.820     
+          +9    6           0.04%      3:3             0.070            0.035           -0.003     
+         +10    6           0.26%      3:3             0.447            0.314           -0.003     
+         +11    6          -0.10%      3:3            -0.171           -0.293           -0.003     
+         +12    6           0.12%      3:3             0.200            0.106           -0.003     
+         +13    6           0.16%      2:4             0.263           -0.051           -0.820     
+         +14    6           0.52%      5:1)            0.875            1.046            1.630$    
+         +15    6          -0.61%      1:5(           -1.030           -1.282$          -1.636$    
+         +16    6          -0.24%      1:5(           -0.405           -0.196           -1.636$    
+         +17    6          -0.23%      2:4            -0.392            0.008           -0.820     
+         +18    6           0.02%      3:3             0.036           -0.073           -0.003     
+         +19    6          -0.14%      2:4            -0.244            0.143           -0.820     
+         +20    6           0.01%      3:3             0.022           -0.176           -0.003     
+         +21    6          -0.01%      4:2            -0.014            0.040            0.813     
+         +22    6          -0.41%      2:4            -0.700           -0.445           -0.820     
+         +23    6          -0.34%      3:3            -0.582           -0.715           -0.003     
+         +24    6          -0.46%      3:3            -0.786           -0.764           -0.003     
+         +25    6           1.03%      4:2             1.748*           1.580$           0.813     
+         +26    6          -0.04%      3:3            -0.066           -0.143           -0.003     
+         +27    6          -0.27%      3:3            -0.458           -0.114           -0.003     
+         +28    6           0.77%      5:1)            1.300$           1.238            1.630$    
+         +29    6          -0.75%      1:5(           -1.260           -1.547$          -1.636$    
+         +30    6          -0.17%      3:3            -0.280           -0.086           -0.003     
+---------------------------------------------------------------------------------------------------
+   The symbols $,*,**, and *** denote statistical significance at the 0.10, 0.05, 0.01 and 0.001
+    levels, respectively, using a generic one-tail test. The symbols (,< or ),> etc. correspond
+    to $,* and show the direction and significance of a generic one-tail generalized sign test.
+ 
+                                                                                                                                    
+ 
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+                              Market Model Abnormal Returns, Equally Weighted Index
+ 
+                       Mean
+                    Cumulative      Precision                      Portfolio       Uncorrected
+                     Abnormal        Weighted      Positive:      Time-Series         Patell        Generalized
+Days          N       Return           CAAR        Negative         (CDA) t             Z              Sign Z
+-----------------------------------------------------------------------------------------------------------------
+(-30,-2)      6          -0.02%          -0.60%      3:3            -0.007           -0.247           -0.003     
+(-1,0)        6           1.00%           0.65%      4:2             1.194            1.026            0.813     
+(+1,+30)      6          -2.20%          -2.20%      2:4            -0.680           -0.894           -0.820     
+-----------------------------------------------------------------------------------------------------------------
+          The symbols $,*,**, and *** denote statistical significance at the 0.10, 0.05, 0.01 and 0.001
+           levels, respectively, using a generic one-tail test. The symbols (,< or ),> etc. correspond
+           to $,* and show the direction and significance of a generic one-tail generalized sign test.
+
+
+
+Eventus (R) Software from Cowan Research, L.C.
+
+
+
+The following Eventus-specific messages also appear in the SAS *.log file or Log tab.
+
+
+NOTE: Eventus does not back up old versions of its output files by default.
+NOTE- You can select automatic backups for the current run by adding Backup anywhwere among the options of the Eventus statement.
+
+
+NOTE: Eventus is using CRSP Flat File 2.0 data from one or more of the following folders: /wrds/crsp/sasdata/q_stock /wrds/crsp/sasd
+ata/q_stock_v2 /wrds/crsp/sasdata/q_stock62 /wrds/crsp/sasdata/q_stock62_v2 /wrds/crsp/sasdata/q_indexes /wrds/crsp/sasdata/q_indexe
+s_v2 /wrds/crsp/sasdata/q_indexhist /wrds/crsp/sasdata/q_ccm
+
+
+NOTE: The first date on the CRSP calendar is 19251231.
+NOTE- The last date on the CRSP calendar is 20221230.
+
+
+WARNING: You have selected (or allowed a third party tool to select) the Patell=Original option.
+WARNING- Reliance on the original Patell test statistic for hypothesis testing is not recommended.
+WARNING- The StdCSect option selects a more robust version of the test. Please see https://support.eventstudy.com/hc/en-us/articles/
+115003771313-Goodbye-to-the-Patell-Test .
+
+
+
+;2C SAS Batch Mode
